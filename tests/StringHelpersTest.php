@@ -5,7 +5,6 @@
  * - kebabCase
  * - classBasename
  */
-
 it('can convert a string to kebab-case', function () {
     expect(kebabCase('HelloWorld'))->toBe('hello-world')
         ->and(kebabCase('helloWorld'))->toBe('hello-world')
@@ -19,5 +18,5 @@ it('can convert a string to kebab-case', function () {
 
 it('can get the class basename', function () {
     expect(classBasename('AntonioPrimera\FileSystem\FileSystemItem'))->toBe('FileSystemItem')
-        ->and(classBasename(new \AntonioPrimera\PhpHelpers\Tests\Context\SampleClass()))->toBe('SampleClass');
+        ->and(classBasename(new \AntonioPrimera\PhpHelpers\Tests\Context\SampleClass))->toBe('SampleClass');
 });

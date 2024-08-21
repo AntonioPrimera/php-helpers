@@ -1,4 +1,5 @@
 <?php
+
 namespace AntonioPrimera\PhpHelpers\Tests\Context;
 
 class SampleClass
