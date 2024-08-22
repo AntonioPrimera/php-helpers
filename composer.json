@@ -10,8 +10,7 @@
     "authors": [
         {
             "name": "Antonio Primera",
-            "email": "antonio@cus.ro",
-            "role": "Developer"
+            "email": "antonio@cus.ro"
         }
     ],
     "require": {
@@ -19,7 +18,6 @@
     },
     "require-dev": {
         "pestphp/pest": "^2.20",
-        "laravel/pint": "^1.0",
         "spatie/ray": "^1.28"
     },
     "autoload": {
@@ -37,17 +35,13 @@
         }
     },
     "scripts": {
-        "test": "vendor/bin/pest",
-        "test-coverage": "vendor/bin/pest --coverage",
-        "format": "vendor/bin/pint"
+        "test": "vendor/bin/pest"
     },
     "config": {
-        "sort-packages": true,
         "allow-plugins": {
-            "pestphp/pest-plugin": true,
-            "phpstan/extension-installer": true
+            "pestphp/pest-plugin": true
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
